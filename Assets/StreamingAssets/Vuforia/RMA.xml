@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="45423728_269136963642615_5050036784453386240_n_edited" size="10.000000 3.792325" />
     <ImageTarget name="cokolada-dorina-keks-rizamlijecna-80g-jadranka-10147518" size="20.000000 10.000000" />
+    <CylinderTarget name="romerquelle" sideLength="67.199997"/>
+    <CylinderTarget name="Coca-Cola7" sideLength="66.599998"/>
     <CylinderTarget name="Coca-Cola6" sideLength="29.900000"/>
   </Tracking>
 </QCARConfig>

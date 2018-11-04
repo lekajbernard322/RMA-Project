@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VuforiaUnityInfo version="7.0">
     <TargetSet version="5.0" toolVersion="2.7.4">
+        <CylinderTarget name="romerquelle" version="3.0" targetId="fc369817f46c4bc28c0771afd022dcb4" sideLength="67.199997" topDiameter="79.070000" bottomDiameter="79.070000" sideImage="romerquelle.Body_scaled.jpg"/>
+        <CylinderTarget name="Coca-Cola7" version="3.0" targetId="b97a2d067b1f458986e236dfdb0c3c4e" sideLength="66.599998" topDiameter="102.599998" bottomDiameter="102.599998" sideImage="Coca-Cola7.Body_scaled.jpg"/>
         <CylinderTarget name="Coca-Cola6" version="3.0" targetId="05ca5485b5a14f19ab8c781b20e562af" sideLength="29.900000" topDiameter="45.060001" bottomDiameter="45.060001" sideImage="Coca-Cola6.Body_scaled.jpg"/>
     </TargetSet>
 </VuforiaUnityInfo>
