@@ -12,11 +12,11 @@ MonoBehaviour:
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
-    vuforiaLicenseKey: 
+    vuforiaLicenseKey: AdZC75D/////AAABmUQzNmuwg0UToBV50h394foUuu29Oq0u78o1kJ+kmavfQDTf2pnr+K6MQ3MQZBdNrS0gp++pFR6ke/kiBYyAfHtN9nuwv4gMkZ5jsRJz58YhyAlMsSYI72DGc7VWHR7BwimeeHflDEXg20mnarHWMdHKlYyxoZ8aql6unNbJiyFbaaNcDmYXfeUTvVquSiLIiqAaSm/vK7+OCWna5Lm0LQiuUh1IAIAZWfTwg+xblDu7NpflMpi3WT9ICvew8vZ1XffnCBiJfOH0BJQb7jDmTailzbnkKgDKsTft+WGEJVvvl3s0xw73k4NO6jP+6gBekv6SlSahjA8HLQ5fU4/iS4ILri90A3KhS483Yx8JP/wr
     ufoLicenseKey: QWNFdEhHUC8vLy8vQUFBQUtPczV2UnZZaGtqT21ZMDJqZ3c1eERNeDdHTU5ZYWwzWlo0cUpRdVJiRWRNRGsxcTZncFhPMUtwYkNGWmluY2s3dmNOWDBoRVpDOFRZdDIwUmdjN3J5bG0rMHVZSjEzR0xuajNsMVFkS080MXQ4cnp5QVhOeTR3WU5hV0F1U01VWUdxTEF1R2tRNjdqS2NxbE4vVTJORVR0TnNWWHVEUWNDdWprd2ZRVzdCeHVlWS9aUEczNEpzUXdncU5MYkxTK3BDK2hIWnA0RUhNb3cyTUlsK1J4aU9Rd3lDblpQUW1GWExOR2pOSE1IYWtyQUl1RGV1Y2tXTk1TZy9VbEwxQzJNQ1FYM2FvME9ydElQcmlmV09KUXR3eUFJQSt3elZqV1VOMGVrVnFqei9mT3VGcUlWb2VPekZmTEI3cWlQSDQ5TXhpcUZvVGlrKzUweEdKVXFKdzM1YmQ1WUQySktvVUlZRVZua0FrQUlYbGs=
     delayedInitialization: 0
-    cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 1
+    cameraDeviceModeSetting: -3
+    maxSimultaneousImageTargets: 3
     maxSimultaneousObjectTargets: 1
     useDelayedLoadingObjectTargets: 0
     cameraDirection: 0
@@ -28,8 +28,8 @@ MonoBehaviour:
     eyewearType: 0
     stereoFramework: 0
     seeThroughConfiguration: 0
-    viewerName: 
-    viewerManufacturer: 
+    viewerName: Generic Cardboard
+    viewerManufacturer: Vuforia
     useCustomViewer: 0
     customViewer:
       Version: 0
@@ -51,14 +51,14 @@ MonoBehaviour:
     matteShader: {fileID: 15310, guid: 0000000000000000f000000000000000, type: 0}
     videoBackgroundEnabled: 1
   deviceTracker:
-    autoInitTracker: 0
-    autoStartTracker: 0
+    autoInitTracker: 1
+    autoStartTracker: 1
     trackingMode: 1
     posePrediction: 0
     modelCorrectionMode: 0
     modelTransformEnabled: 0
     modelTransform: {x: 0, y: 0.1, z: -0.1}
-    fusionMode: 7
+    fusionMode: 5
   smartTerrain:
     autoInitTracker: 0
     autoStartTracker: 0
